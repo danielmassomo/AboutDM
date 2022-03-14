@@ -1,0 +1,67 @@
+@charset "UTF-8";
+@import url("http://fonts.googleapis.com/css?family=Titillium+web");
+body{background-color: #fff; padding: 300000; margin: 0; }
+
+
+
+
+/* ========== Estilização do menu ========== */
+#nav {float:rigth; width: 100%; background-color: BLACK;}
+#nav  ul{float: lefth; width: 100%; margin: 0; padding: 0; list-style: none;}
+#nav  ul li{float:lefth; text-transform: uppercase; cursor: pointer; font-size: 16pt; text-align: center; font-family: 'Titillium web', sans-serif;
+     -webkit-transition: background-color 1s;
+ 	-moz-transition: background-color 1s;
+ 	-o-transition: background-color 1s;
+ 	-ms-transition: background-color 1s;
+ 	transition: background-color 1s;
+}
+#nav  ul li a{text-decoration: none; color: #fff; padding: 20px; display: block;}
+#nav  ul li:hover{background-color: #fff;}
+#nav  ul li a:hover{color: #606060;}
+
+
+/* ========== Estilização do menu2 ========== */
+#nav2 {float:lefth; width: 100%; background-color: BLACK;}
+#nav2  ul{float: l; width: 100%; margin: 50; padding: 0; list-style: none;}
+#nav2  ul li{float: rigth; text-transform: uppercase; cursor: pointer; font-size: 16pt; text-align: center; font-family: 'Titillium web', sans-serif;
+     -webkit-transition: background-color 1s;
+ 	-moz-transition: background-color 1s;
+ 	-o-transition: background-color 1s;
+ 	-ms-transition: background-color 1s;
+ 	transition: background-color 1s;
+}
+#nav2  ul li a{text-decoration: none; color: #fff; padding: 20px; display: block;}
+#nav2  ul li:hover{background-color: #fff;}
+#nav2 ul li a:hover{color: #606060;}
+
+#corpo{
+width:850px;
+height: 1180px;
+background-color:  #fff;
+margin: auto;
+}
+#cab{
+width:850px;
+height:200px;
+background-color: #3c3c3c;
+float: left;
+color: #fff;
+}
+#menu{
+width:850px;
+height:40px;
+background-color: #666;
+float: left;
+color: #fff;
+}
+
+.box_cover img{
+    text-aling: center;
+    width: 100%;
+    transform:scale(1.1);
+    transition: all 300ms ease-in-out;
+    }
+    
+    .box:hover .box_cover img{
+    transform: scale(1);
+    }
